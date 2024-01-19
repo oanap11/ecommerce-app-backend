@@ -18,5 +18,5 @@ public class State {
 
     @ManyToOne
     @JoinColumn(name="country_id")
-    private String country;
+    private Country country;
 }

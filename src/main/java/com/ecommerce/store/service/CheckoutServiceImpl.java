@@ -41,7 +41,7 @@ public class CheckoutServiceImpl implements CheckoutService {
         return new PurchaseResponse(orderTrackingNumber);
     }
 
-    private String generateOrderTrackingNumber() {
+    public String generateOrderTrackingNumber() {
         return UUID.randomUUID().toString();
     }
 }
